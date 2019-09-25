@@ -1,0 +1,21 @@
+用户注册
+
+    接口地址：/users/register
+    返回格式：json
+    请求方式：post
+
+    名称     必填    类型    说明
+    username  Y    string  用户名称
+    password  Y    string  用户密码
+
+    返回的数据示例
+    {
+        “code"：“208"，     数据请求成功
+        "errMsg"：""，
+        "data"：{
+            status：1，     0代表用户名重复  1代表成功 2服务器错误
+            info:"注册成功"
+    }
+    
+    
+    
